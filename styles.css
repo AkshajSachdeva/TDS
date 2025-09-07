@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0D0D0D;
+    color: #E0E0E0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+}
+
+section {
+    display: block;
+    padding: 5vw 5%; 
+    padding-bottom: 2vw;
+    text-align: center;
+}
+
+section:nth-of-type(1) {
+    padding-top: 2.5vw;
+    padding-right: 1vw;
+}
+
+h1 {
+    margin: 0;
+    color: #FFD700;
+    font-size: clamp(28px, 5vw, 67px); 
+    line-height: 1.2;
+    padding-bottom: 20px;
+}
+
+p {
+    font-size: clamp(16px, 2.5vw, 30px);
+    margin: 5px 0;
+}
+
+#Intro {
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 2%;
+    background-color: #1A1A1A; 
+    margin: 0;
+}
+  
+#Intro h1 {
+    font-size: clamp(28px, 5vw, 67px);
+    padding-left: 1vw;
+    padding: 0;
+    font-weight: bold;
+    color: #FFD700; 
+}
+  
+#nav {
+    display: flex;
+    gap: 25px; 
+}
+  
+#nav a {
+    text-decoration: none;
+    font-size: clamp(16px, 2vw, 25px);
+    color: #FFD700;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+  
+#nav a:hover {
+    color: #FFB400; 
+    transform: translateY(-2px);
+}
+
+#description {
+    text-align: left;
+}
+  
+h2 {
+    margin: 0;
+    color: #FFD700;
+    font-size: clamp(22px, 3vw, 48px); 
+    line-height: 1.2;
+}
+
+#our_story p {
+    text-align: left;
+}
+
+#our_chef p {
+    text-align: left;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;          
+    gap: 15px;                
+    justify-content: center;  
+}
+  
+#container a {
+    flex: 1 1 calc(50% - 15px); 
+    max-width: calc(50% - 15px);
+    display: flex;              
+}
+  
+#container img {
+    width: 100%; 
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+  
+#container img:hover {
+    transform: scale(1.03);
+}
+
+#contact p {
+    padding-bottom: 2vw;
+    text-align: left;
+}
+
+#contact a {
+    padding: 0 20px;
+    display: inline-flex;
+    color: #FFD700;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(16px, 3vw, 30px);
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+  
+#contact a:hover {
+    color: #FFB400;
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+  
