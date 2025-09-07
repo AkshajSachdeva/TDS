@@ -141,3 +141,24 @@ h2 {
     cursor: pointer;
     transform: translateY(-2px);
 }
+@media (max-width: 900px) {
+    #container a {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    #container a {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    #nav {
+        flex-wrap: wrap;
+    }
+
+    #nav a {
+        font-size: clamp(14px, 3vw, 20px);
+    }
+}
