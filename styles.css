@@ -56,7 +56,7 @@ p {
     padding-left: 1vw;
     padding: 0;
     font-weight: bold;
-    color: #FFD700; 
+    color: #FFB400;
 }
   
 #nav {
@@ -67,12 +67,12 @@ p {
 #nav a {
     text-decoration: none;
     font-size: clamp(16px, 2vw, 25px);
-    color: #FFD700;
+    color: #FFB400;
     transition: color 0.3s ease, transform 0.3s ease;
 }
   
 #nav a:hover {
-    color: #FFB400; 
+    color: #FFD700;
     transform: translateY(-2px);
 }
 
@@ -82,7 +82,7 @@ p {
   
 h2 {
     margin: 0;
-    color: #FFD700;
+    color: #FFB400;
     font-size: clamp(22px, 3vw, 48px); 
     line-height: 1.2;
 }
@@ -127,7 +127,7 @@ h2 {
 #contact a {
     padding: 0 20px;
     display: inline-flex;
-    color: #FFD700;
+    color: #FFB400;
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -137,7 +137,7 @@ h2 {
 }
   
 #contact a:hover {
-    color: #FFB400;
+    color: #FFD700;
     cursor: pointer;
     transform: translateY(-2px);
 }
